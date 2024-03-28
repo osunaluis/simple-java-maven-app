@@ -32,3 +32,5 @@ set -x
 java -jar target/my-app-1.0-SNAPSHOT.jar
 
 
+echo "Change for poll configuration"
+
