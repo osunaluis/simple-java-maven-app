@@ -19,9 +19,6 @@ set -x
 VERSION=`mvn -q -DforceStdout help:evaluate -Dexpression=project.version`
 set +x
 
-set -x
-PATH=$(pwd)
-set +x
 
 set -x
 echo $PATH
