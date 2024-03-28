@@ -26,6 +26,7 @@ set +x
 
 set -x
 echo $JAVA_HOME
+which java
 set +x
 
 echo 'The following command runs and outputs the execution of your Java'
