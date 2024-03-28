@@ -25,7 +25,7 @@ PATH=$(pwd)
 set +x
 
 set -x
-java -v
+echo $JAVA_HOME
 set +x
 
 echo 'The following command runs and outputs the execution of your Java'
